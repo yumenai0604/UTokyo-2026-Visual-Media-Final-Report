@@ -1,0 +1,7 @@
+condition,test_images,nms_type,score_threshold,max_per_image,mAP,AP50,AP75,AP_small,AP_medium,AP_large
+Hard-NMS baseline,Clean,nms,0.05,100,0.511,0.839,0.547,0.452,0.623,0.575
+Soft-NMS configuration,Clean,soft_nms,0.001,300,0.529,0.848,0.578,0.472,0.640,0.594
+Hard-NMS baseline,Speckle L4,nms,0.05,100,0.150,0.265,0.154,0.132,0.212,0.097
+Soft-NMS configuration,Speckle L4,soft_nms,0.001,300,0.162,0.282,0.169,0.142,0.229,0.109
+Hard-NMS with Lee preprocessing,Lee-filtered speckle L4,nms,0.05,100,0.148,0.284,0.139,0.110,0.199,0.173
+Hard-NMS baseline,Small-object image subset,nms,0.05,100,0.488,0.828,0.517,0.454,0.655,0.681

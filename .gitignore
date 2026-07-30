@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Generated data and model artifacts
+data/
+datasets/
+checkpoints/
+weights/
+work_dirs/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# Course submission files and local archives
+*.docx
+*.pdf
+*.zip

@@ -1,0 +1,8 @@
+numpy>=1.23,<2
+opencv-python>=4.7,<5
+scipy>=1.10,<2
+matplotlib>=3.7,<4
+
+# The detector itself uses the environment documented in README.md and in the
+# upstream SARDet-100K repository. OpenMMLab packages are intentionally not
+# installed here because their builds depend on the local CUDA/PyTorch setup.
